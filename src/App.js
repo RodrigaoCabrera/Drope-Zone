@@ -1,14 +1,18 @@
+import styled from "styled-components";
 import "./App.css";
 import DropZone from "./components/DropZone";
 import Login from "./components/Login";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
+    <Main className="App">
       <DropZone />
       <Login />
-    </div>
+    </Main>
   );
 }
 
-export default App;
+const Main = styled.div`
+  display: flex;
+
+`;
