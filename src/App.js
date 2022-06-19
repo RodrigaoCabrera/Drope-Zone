@@ -14,5 +14,6 @@ export default function App() {
 
 const Main = styled.div`
   display: flex;
-
+  flex-wrap: wrap-reverse;
+  justify-content: center;
 `;
